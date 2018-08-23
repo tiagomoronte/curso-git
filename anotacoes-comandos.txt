@@ -1,0 +1,13 @@
+git clone
+
+git tag
+
+git branch
+
+git ls-files
+
+git init
+
+git status
+
+

@@ -10,4 +10,4 @@ git init
 
 git status
 
-
+git log

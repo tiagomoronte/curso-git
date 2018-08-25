@@ -38,3 +38,24 @@ git rebase master desenvolvimento
 
 git rebase --continue
 
+git checkout nomearquivo // volta para o estado do repositorio
+
+git reset HEAD // quando está pronto para fazer o commit
+
+git reset CODIGODOCOMMIT // volta para o estado anterior, exclui os commits
+
+git revert volta para um commit antigo, sem apagar os commits posteriores
+
+git stash
+
+git stash list
+
+git stash pop
+git stash apply stash@{0}
+git stash drop
+
+git bisect start
+git bisect bad HEAD
+git bisect good CODIGODOCOMMIT
+
+

@@ -24,10 +24,17 @@ git branch
 
 git branch design
 
+git merge desenvolvimento
+
+git rebase master desenvolvimento
+
 git checkout design
 
 git push -u origin design
 
 git branch -t design origin/design
 
+git rebase master desenvolvimento
+
+git rebase --continue
 

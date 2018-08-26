@@ -58,4 +58,22 @@ git bisect start
 git bisect bad HEAD
 git bisect good CODIGODOCOMMIT
 
+# ALIASES
+
+Fork cria cópia de um projeto para outro repositório
+Pull request
+
+git remote add original url
+git pull original master
+
+git remote add mariasoaresgit url mariasoares
+
+git fetch mariasoaresgit
+
+git diff mariasoaresgit/master
+
+git merge mariasoaresgit/master
+
+
+
 
